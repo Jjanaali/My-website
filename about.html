@@ -1,0 +1,53 @@
+ساره الزويد
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <title>من نحن - دليلك الطبيعي</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>من نحن</h1>
+    <nav>
+      <a href="index.html">الرئيسية</a>
+      <a href="about.html">من نحن</a>
+      <a href="products.html">المنتجات</a>
+      <a href="contact.html">تواصل معنا</a>
+    </nav>
+  </header>
+
+  <main>
+    <p>نحن فريق شغوف بتقديم الجمال الطبيعي باستخدام وصفات ومكونات مستخلصة من الطبيعة.</p>
+
+    <img src="https://cdn.shopify.com/s/files/1/0572/0732/4865/files/switching-to-natural-skin-care-products_480x480.jpg?v=1664368147"
+         alt="صورة توضح فريق دليلك الطبيعي أثناء العمل على منتجات طبيعية">
+
+    <p>نهدف إلى رفع وعي الناس بأهمية استخدام المنتجات الطبيعية للعناية بالبشرة والشعر والجسم.</p>
+
+    <!-- زر عرض الرسالة -->
+    <button onclick="showMission()">عرض رسالتنا</button>
+    <div id="mission" class="hidden"></div>
+
+    <p>مع دليلك الطبيعي، الجمال يبدأ من الطبيعة. نشكرك لاهتمامك ونتطلع لخدمتك.</p>
+  </main>
+
+  <footer>
+    جميع الحقوق محفوظة © 2025
+  </footer>
+
+  <!-- دالة عرض الرسالة -->
+  <script>
+    function showMission() {
+      const mission = document.getElementById("mission");
+      mission.innerHTML = `
+        <p>رسالتنا هي تعزيز الوعي بأهمية العودة للطبيعة من خلال تقديم منتجات آمنة وصحية للبشرة والشعر والجسم.</p>
+        <p>نؤمن بأن الطبيعة تقدم حلولاً فعالة دون الحاجة للمواد الكيميائية الضارة، ونحرص على استخدام مكونات طبيعية عالية الجودة.</p>
+      `;
+      mission.classList.remove("hidden");
+      mission.classList.add("fadeInBox");
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>ربى اليحيى
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <title>المنتجات - دليلك الطبيعي</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>منتجاتنا الطبيعية</h1>
+    <nav>
+      <a href="index.html">الرئيسية</a>
+      <a href="about.html">من نحن</a>
+      <a href="products.html">المنتجات</a>
+      <a href="contact.html">تواصل معنا</a>
+    </nav>
+  </header>
+
+  <main>
+    <p>نقدم لك مجموعة مختارة من المنتجات الطبيعية المصنوعة بعناية.</p>
+
+    <img src="https://cdn.salla.sa/RrKRy/34aa3f08-08bc-4fc8-b0ad-8f745638c1a9-1000x562-Ry7m4t6oX4OZs2LDpf1IlVPjan4tdWe33kbMIH3R.png" alt="منتجات طبيعية">
+
+    <ul>
+      <li>زيت الأرغان - ترطيب عميق للبشرة</li>
+      <li>صابون الفحم - لتنظيف المسام</li>
+      <li>مسك الطين المغربي - لتجديد البشرة</li>
+    </ul>
+
+    <!-- الزر مع حركة hint -->
+    <button id="highlightBtn" class="hint" onclick="highlight()">تسليط الضوء</button>
+
+    <p>جرب منتجاتنا وشاركنا رأيك في رحلتك مع الجمال الطبيعي.</p>
+  </main>
+
+  <footer>
+    جميع الحقوق محفوظة © 2025
+  </footer>
+
+  <script>
+    function highlight() {
+      document.querySelector("ul").style.backgroundColor = "#e0ffe0";
+      document.getElementById("highlightBtn").classList.remove("hint");
+    }
+  </script>
+</body>
+</html>
