@@ -1,0 +1,93 @@
+body {
+  font-family: 'Tahoma', sans-serif;
+  direction: rtl;
+  background-color: #f5f1e6; /* خلفية بيج أنيقة */
+  color: #2e2e2e;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: linear-gradient(to left, #c1dfc4, #deecdd); /* تدرج أخضر فاتح وناعم */
+  padding: 20px;
+  text-align: center;
+  color: #4b2c3f;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #4b2c3f;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 30px 20px;
+  max-width: 800px;
+  margin: auto;
+  background-color: #ffffff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+main h2 {
+  color: #d36c6c; /* وردي راقٍ */
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #f3d7ca; /* وردي بيج ناعم */
+  padding: 15px;
+  text-align: center;
+  color: #4b2c3f;
+  margin-top: 40px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  background-color: #f9f9f9;
+}
+
+button {
+  background-color: #a3c293; /* أخضر بيج ناعم */
+  color: #fff;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #bfd8b0; /* أخضر أفتح */
+}
